@@ -6,8 +6,14 @@
     <title>Character Gallery</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-   
+   <input 
+  type="text" 
+  id="searchBar" 
+  placeholder="Search characters..." 
+  onkeyup="searchCharacters()"
+>
     <nav>
         <h2> Transformer Character Gallery</h2>
         <a href="index.html">Home</a>
@@ -38,11 +44,33 @@
         <p>Leader of the Decepticons.</p>
         <a href="characters/megatron.html" class="button">View Profile</a>
       </div>
+      <div class="card">
+    <img src="images/Ironhide.webp" alt="Ironhide">
+
+    <h2>Ironhide</h2>
+
+    <p>The Autobots' weapons specialist.</p>
+
+    <a href="characters/ironhide.html" class="button">
+        View Profile
+    </a>
+</div>
+<div class="card">
+    <img src="images/Starscream.webp" alt="Starscream">
+
+    <h2>Starscream</h2>
+
+    <p>The second-in-command of the Decepticons.</p>
+
+    <a href="characters/starscream.html" class="button">
+        View Profile
+    </a>
+</div>
     </section>
   </main>
   <footer>
     <p>Created by De'Saun Avent | Static Web App Assignment</p>
   </footer>
-
+<script src="script.js"></script>
 </body>
 </html>

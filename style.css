@@ -114,3 +114,31 @@ footer {
     text-decoration: none;
     border-radius: 8px;
 }
+#searchBar {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+form input,
+form select,
+form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+textarea {
+    min-height: 120px;
+}
